@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+output/
+*.pyc
+*.npy
+*.h5
+*.pickle
