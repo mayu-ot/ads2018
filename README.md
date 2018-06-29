@@ -28,7 +28,7 @@ export WORD2VEC_PATH=/path/to/Word2Vec/GoogleNews-vectors-negative300.bin
 You can get the competition dataset [here](https://evalai.cloudcv.org/web/challenges/challenge-page/86/overview).
 Downlaod the training/test datasets and extracut them in the `data` directory.
 
-We also use OCR results. Download the OCR results [here](https://figshare.com/projects/_Advertisement_VQA_Challenge_cyberagent_model_and_data/35579) and save in the `data` directory.
+We also use OCR results. Download the OCR results ([figshare](https://figshare.com/projects/_Advertisement_VQA_Challenge_cyberagent_model_and_data/35579)) and save in the `data` directory.
 
 
 # Preparation
@@ -39,7 +39,7 @@ Before training, pre-compute Faster-RCNN features of ad images.
 VA_DATASET_ROOT=/path/to/VisualAdvertisementDataset/ python script/save_feat.py
 ```
 
-Otherwise, you can download precomputed features [here](https://figshare.com/projects/_Advertisement_VQA_Challenge_cyberagent_model_and_data/35579) (Faster-RCNN features), and copy to `data/frcnn_feat/`.
+Otherwise, you can download precomputed Faster-RCNN features ([figshare](https://figshare.com/projects/_Advertisement_VQA_Challenge_cyberagent_model_and_data/35579)), and copy to `data/frcnn_feat/`.
 
 # Training
 
@@ -61,7 +61,7 @@ python script/train.py --eval /path/to/output/directory
 
 # Reproduce the competition results
 
-Download two figshare items `Chainer model file` and `tokenizer and word embeddings` [here](https://figshare.com/projects/_Advertisement_VQA_Challenge_cyberagent_model_and_data/35579).
+Download two figshare items `Chainer model file` and `tokenizer and word embeddings` ([figshare](https://figshare.com/projects/_Advertisement_VQA_Challenge_cyberagent_model_and_data/35579)).
 Copy `wordvec.npy` and `tokenizer.pickle` to `data` directory, then run
 
 ```
