@@ -1,5 +1,7 @@
 Implementation of our approach for [Automatic Understanding of Visual Advertisements Challenge](https://evalai.cloudcv.org/web/challenges/challenge-page/86/overview) (1st place of 2018 challenge).
 
+<p align="center"><img src="overview.png"></p>
+
 # Requirements
 
 
