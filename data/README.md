@@ -1,5 +1,5 @@
 # Data
-This direcotry should contain:
+This directory should contain:
 
 ```
 data
@@ -16,4 +16,4 @@ data
 └── train_images
 ```
 
-The items in brackets are generated after runnting `script/train.py`
+The items in brackets will be generated after runnting `script/train.py`
