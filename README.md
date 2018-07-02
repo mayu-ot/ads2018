@@ -8,12 +8,14 @@ Implementation of our approach for [Automatic Understanding of Visual Advertisem
 You need to have following packages:
 
 - chainer
+- chainercv
 - keras
 - cupy
 - gensim
 - nltk
 - pandas
 - pytables
+- parse
 
 We also provide a Dockerfile to setup dependencies.
 

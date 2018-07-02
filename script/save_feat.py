@@ -9,7 +9,6 @@ from chainercv.datasets import voc_bbox_label_names
 from chainercv.links.model.faster_rcnn import FasterRCNNVGG16
 import chainer.functions as F
 import os
-import progressbar
 
 class FasterRCNNVGG16Extractor(FasterRCNNVGG16):
     def __call__(self, x, scale=1.):

@@ -8,7 +8,7 @@ RUN apt-get update -y && \
     python3-setuptools && \
     rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
 
-RUN pip3 install --no-cache-dir cupy-cuda90==5.0.0b2 chainer==5.0.0b2
+RUN pip3 install --no-cache-dir cupy-cuda90==4.2.0 chainer==4.2.0 chainercv==0.9.0
 
 RUN pip3 install --no-cache-dir \
 	tensorflow-gpu \

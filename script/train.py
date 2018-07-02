@@ -80,7 +80,6 @@ def save_wordemb(stopwords_removal_on=False):
         try:
             wvec = word_vectors.get_vector(w)
         except:
-            print('out of vocab: %s' % w)
             wvec = np.zeros((300,)).astype('f')
         M[i] = wvec
     
