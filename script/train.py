@@ -221,9 +221,8 @@ class TextCNN(chainer.Chain):
         x = F.pad_sequence(x, padding=-1)
         x = self.emb(x)
         x = F.expand_dims(x, axis=1)
-        h_2 = F.relu(self.conv_2(x))
-        h_2 = F.max(h_2, axis=2)
-        h = h_2
+        h = F.relu(self.conv_2(x))
+        h = F.max(h, axis=2)
         h = F.tanh(self.l(h))
         return h
     
